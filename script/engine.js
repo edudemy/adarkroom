@@ -6,7 +6,8 @@ var Engine = {
 	 * 	  value-change events. These events should be fired whenever a value (or group of values, I suppose) is updated.
 	 * 	  That would be so elegant and awesome.
 	 */
-	SITE_URL: encodeURIComponent("http://adarkroom.mobi"),
+	SITE_URL: encodeURIComponent("http://www.adarkroom.mobi/"),
+	VERSION: 1.3,
 	MAX_STORE: 99999999999999,
 	SAVE_DISPLAY: 30 * 1000,
 	GAME_OVER: false,
@@ -126,7 +127,7 @@ var Engine = {
 		$('<span>')
 			.addClass('menuBtn')
 			.text('app store.')
-			.click(function() { window.open('http://adarkroom.mobi'); })
+			.click(function() { window.open('http://www.adarkroom.mobi/'); })
 			.appendTo(menu);	
 		
 		// Register keypress handlers
