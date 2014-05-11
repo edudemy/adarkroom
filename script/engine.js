@@ -125,7 +125,7 @@ var Engine = {
 			
 		$('<span>')
 			.addClass('menuBtn')
-			.text('app store.')
+			.text('game link.')
 			.click(function() { window.open('http://adarkroom.mobi'); })
 			.appendTo(menu);	
 		
