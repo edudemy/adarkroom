@@ -6,8 +6,7 @@ var Engine = {
 	 * 	  value-change events. These events should be fired whenever a value (or group of values, I suppose) is updated.
 	 * 	  That would be so elegant and awesome.
 	 */
-	SITE_URL: encodeURIComponent("http://adarkroom.mobi"),
-	VERSION: 1.3,
+	SITE_URL: encodeURIComponent("https://edudemy.github.io/adarkroom/"),
 	MAX_STORE: 99999999999999,
 	SAVE_DISPLAY: 30 * 1000,
 	GAME_OVER: false,
